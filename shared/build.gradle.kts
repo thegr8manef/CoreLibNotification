@@ -1,7 +1,8 @@
 plugins {
-    alias(libs.plugins.kotlinMultiplatform)
-    alias(libs.plugins.kotlinCocoapods)
-    alias(libs.plugins.androidLibrary)
+    kotlin("multiplatform")
+    kotlin("native.cocoapods")
+    id("com.android.library")
+    id("maven-publish")
 }
 
 kotlin {

@@ -1,8 +1,6 @@
 package com.example.corelibnotificaton
-// iOSModule.kt
-import platform.UIKit.UIApplication
+
 import platform.UIKit.UIViewController
-import platform.UIKit.UINavigationController
 import platform.UIKit.UIAlertController
 import platform.UIKit.UIAlertAction
 
